@@ -89,6 +89,9 @@
     "lib/"
   ],
   "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'Build complete'",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "mocha --require test/support/env --reporter spec --check-leaks test/ test/acceptance/",
